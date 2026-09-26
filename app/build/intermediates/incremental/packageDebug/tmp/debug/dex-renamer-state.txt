@@ -1,0 +1,25 @@
+#Sat Sep 26 16:34:02 PET 2026
+base.0=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+base.1=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.2=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
+base.3=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\12\\classes.dex
+base.4=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
+base.5=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\2\\classes.dex
+base.6=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
+base.7=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=10/classes.dex
+path.3=12/classes.dex
+path.4=1/classes.dex
+path.5=2/classes.dex
+path.6=7/classes.dex
+path.7=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
+renamed.5=classes6.dex
+renamed.6=classes7.dex
+renamed.7=classes8.dex
