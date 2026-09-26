@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.R
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 // Descomentar junto con MaterialAlertDialogBuilder para construir el diálogo.
@@ -13,7 +12,7 @@ import com.cibertec.ticketaula.adapter.SolicitudAdapter
 import com.cibertec.ticketaula.data.SolicitudStore
 import com.cibertec.ticketaula.databinding.DialogDetalleSolicitudBinding
 // Descomentar para acceder a los componentes del diálogo personalizado.
-import com.cibertec.ticketaula.databinding.DialogDetalleSolicitudBinding
+
 import com.cibertec.ticketaula.databinding.FragmentListaBinding
 import com.cibertec.ticketaula.model.Solicitud
 // Descomentar al implementar el diálogo de detalle.
@@ -73,7 +72,7 @@ class ListaFragment : Fragment() {
 
     private fun mostrarDetalle(solicitud: Solicitud) {
         val dialogBinding = DialogDetalleSolicitudBinding.inflate(layoutInflater)
-        dialogBinding.textViewTituloDialog.text = getString(R.)
+        dialogBinding.textViewTituloDialog.text = getString(R.string.dialogo_titulo_formato, solicitud.id)
         dialogBinding.textViewSolicitanteDialog.text = solicitud.nombre
         dialogBinding.textViewProblemaDialog.text = solicitud.descripcion
         dialogBinding.textViewCategoriaDialog.text = solicitud.categoria
@@ -81,18 +80,19 @@ class ListaFragment : Fragment() {
 
 
         val fondoSemaforo = when (solicitud.prioridad){
-            "Baja" -> R.drawable.
-            "Baja" -> R.drawable.
-            "Baja" -> R.drawable.
-            else -> R.drawable.
+            getString(R.string.prioridad_baja) -> R.drawable.bg_semaforo_verde
+            getString(R.string.prioridad_media) -> R.drawable.bg_semaforo_amarillo
+            getString(R.string.prioridad_alta) -> R.drawable.bg_semaforo_rojo
+
+            else -> R.drawable.bg_semaforo_neutro
 
         }
 
-        dialogBinding.viewSemaforoTarjeta.setBackgroundResource(fondoSemaforo)
+        dialogBinding.viewSemaforoDialog.setBackgroundResource(fondoSemaforo)
 
         MaterialAlertDialogBuilder(requireContext())
-            .setView(dialongBinding.root)
-            .setPositiveButton(null)
+            .setView(dialogBinding.root)
+            .setPositiveButton(R.string.dialogo_boton_aceptar,null)
             .show()
 
 

@@ -1,4 +1,4 @@
-#Sat Sep 26 16:34:02 PET 2026
+#Sat Sep 26 17:39:26 PET 2026
 base.0=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=D\:\\DAMI_Manuel_Sejuro\\Clase26.09\\TicketAula_Alumnos\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
